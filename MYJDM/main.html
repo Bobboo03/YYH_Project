@@ -9,11 +9,12 @@
     <script src="script/autoimgslide.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>MYJDM</title>
     
 </head>
 <body>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script>
     import AOS from 'aos';
     import 'aos/dist/aos.css';
@@ -64,21 +65,37 @@
         <img src="img/jdm3.jpg" alt="image3" />
     </div>
 
+    <div class="item" data-aos="fade-right">
+        <p>Our JDM Brands</p>
 
-    <div data-aos="fade-in" style="background-color: aquamarine;">
-        
-        <p>AAAAA</p>
+      
+        <img src="img/nissan.png" width="14%" alt="Nissan">
+        <img src="img/toyota.png" width="14%" alt="Toyota">
+        <img src="img/honda.png" width="14%" alt="Honda">
+        <br>
+        <img src="img/mazda.png" width="18%" alt="Mazda">
+        <img src="img/mitsubishi.png" width="11%" alt="Mitsubishi">
+        <img src="img/subaru.png" width="14%" alt="Subaru">
+        <br>
+        <img src="img/nismo.png" width="14%" alt="Nismo">
+        <img src="img/lexus.png" width="14%" alt="Lexus">
+        <img src="img/gtr.png" width="14%" alt="GTR">
+
     </div>
 
-    <div style="height: 1200px; background-color: aqua;">AAAA</div>
+    <script>
+        AOS.init({
+        duration: 1000
+        });
+    </script>
 
+
+    <div style="background-color: white; height: 50vh;">
+        AAAAA
+    </div>
 </section>
-<!--
-<div class="footer">
-    <div class="ftext">
-        AA
-    </div>
-</div>
--->
+
+
+
 </body>
 </html>

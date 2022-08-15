@@ -1,12 +1,11 @@
 .fadeShow { 
   background: black;
-  width:1000px; 
+  width:50%; 
   height:560px; 
-  margin: 20px auto; 
+  margin: 50px auto; 
  }
 
 .fadeShow img{position:absolute;}
 .fadeShow .active{
      z-index:1;
  }
- 
